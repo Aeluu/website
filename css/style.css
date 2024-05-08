@@ -1,23 +1,60 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-size:   1rem;
+  line-height: 1.5em;
 }
 
-body, p {
-	font-family: "Inter";
-  	font-weight: 400;
-  	font-style: normal;
-  	font-size:   1rem;
-  	line-height: 1.5em;
-	margin:0;
-  	padding:0;
+.container {
+  margin: 1rem 1rem 1rem 1rem;
+  min-width: 420px;
+  max-width: 1024px;
+  width: 1024px;
+}
+
+.section-one {
+  display: flex;
+}
+
+.section-two {
+  display: flex;
+}
+
+.design {
+  flex-grow: 1;
+  background-color: #00B9FF;
+}
+
+.product {
+  flex-grow: 1;
+  background-color: #00B9FF;
+}
+
+.engineering {
+  flex-grow: 1;
+  background-color: #00B9FF;
+}
+
+.about {
+  background-color: #00B9FF;
+  flex-grow: 1;
+}
+
+.picture {
+  background-color: #03989E;
+  flex-grow: 1;
+}
+
+.book {
+  background-color: #E58331;
+  grid-column: span 1;
 }
 
  h1,  h2,  h3,  h4,  h5,  h6,
